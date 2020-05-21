@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+body{
+  background-color: grey;
+}
+div{
+  float: left;
+  width:30%;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  overflow: auto;
+  background-color: #00FFFF;
+  position: relative;
+  font-family:cursive;
+  font-size: 16px;
+  text-align: justify;
+}
+#p1 span{
+  position: relative;
+  top:0;
+  left: 80%;
+  padding-right: 10px;
+  margin-right: 10px;
+  background-color: red;
+  font-size: 20px ;
+}
+@media (min-width: 768px) and (max-width:991px) {
+  #div1{
+    margin-left: 20%;
+  }
+  #tablet{
+    width:62%;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 767px) {
+  #div1,#mobile,#tablet{
+    width:50%;
+    margin-left: 25%;
+  }
+}
